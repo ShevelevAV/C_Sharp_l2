@@ -8,14 +8,14 @@ while (N < 101)
         N++;
 
     }
-    if (N % 3 == 0)
+    else if (N % 3 == 0)
     {
 
         Console.WriteLine("Fizz");
         N++;
 
     }
-    if (N % 5 == 0)
+    else if (N % 5 == 0)
     {
 
         Console.WriteLine("Buzz");
