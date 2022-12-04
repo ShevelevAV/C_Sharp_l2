@@ -11,7 +11,7 @@ Console.WriteLine("Введите число a: ");
 int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите число b: ");
 int b = int.Parse(Console.ReadLine()!);
-if ((a > b & b * b == a) || (a < b & a * a == b))
+if (b * b == a || a * a == b)
 {
     Console.WriteLine($"{a}, {b} -> да");
 
